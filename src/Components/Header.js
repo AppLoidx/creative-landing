@@ -37,11 +37,11 @@ const Header = () => {
 		<Slide direction="down" in={true} timeout={1000} mountOnEnter>
 			<Toolbar className={classes.toolBar}>
 				<Typography variant="h6" className={classes.title}>
-					лого
+					Mari.SoftSkillsCoach
 				</Typography>
-				<Typography variant="h6" className={classes.basicText}>
-					название
-				</Typography>
+				{/*<Typography variant="h6" className={classes.basicText}>*/}
+				{/*	softskillcoach*/}
+				{/*</Typography>*/}
 			</Toolbar>
 		</Slide>);
 };
