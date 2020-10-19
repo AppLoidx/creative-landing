@@ -58,22 +58,22 @@ const CreativityWhatCard = () => {
 							Креативность это...
 						</Typography>
 						<Typography className={classes.basicText}>
-							-Список основных пунктов норм раскрывающий значение понятий.<br/><br/>
-							-Сами “точки” для пунктов я сделаю отдельно<br/><br/>
-							-Текст от Ромы<br/><br/>
-							-Отказ от стереотипного мышления.<br/><br/>
-							-Гибкость и оригинальность<br/><br/>
-							-решение проблем неординарным способом<br/><br/>
+							{/*-Список основных пунктов норм раскрывающий значение понятий.<br/><br/>*/}
+							{/*-Сами “точки” для пунктов я сделаю отдельно<br/><br/>*/}
+							{/*-Текст от Ромы<br/><br/>*/}
+							-Полный отказ от стереотипных идей и мыслей<br/><br/>
+							-Абсолютная гибкость и оригинальность мышления<br/><br/>
+							-Решение любой проблемы неординарным способом<br/><br/>
 						</Typography>
 					</Grid>
 				</Fade>
-				<Grid container direction="row" item sm={1} alignItems="flex-start">
-					<Grow in={trigger} timeout={3000}>
-						<Typography className={classes.title}>
-							А что такое креативность?
-						</Typography>
-					</Grow>
-				</Grid>
+				{/*<Grid container direction="row" item sm={1} alignItems="flex-start">*/}
+				{/*	<Grow in={trigger} timeout={3000}>*/}
+				{/*		<Typography className={classes.title}>*/}
+				{/*			А что такое креативность?*/}
+				{/*		</Typography>*/}
+				{/*	</Grow>*/}
+				{/*</Grid>*/}
 				<Grid item sm>
 					<Fade in={trigger} timeout={1200}>
 						<img src={GirlPicture} alt="some girl" style={{objectFit: "contain"}}/>

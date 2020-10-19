@@ -51,7 +51,9 @@ const StartingCard = () => {
 					</Grid>
 					<Grid item sm={2}>
 						<Typography className={classes.basicText} align="center">
-							Не беда, всему можно научиться. Развивай креативное мышление вместе с Нами! (или со мной??) Здесь нужен еще какой-то тескт мб что-то о курсе.
+							Я помогу тебе в этом,<br/>ведь креативными<br/>не рождаются,<br/>а<br/>становятся.
+							{/*Не беда, всему можно научиться. Развивай креативное мышление вместе с Нами! (или со мной??) Здесь нужен еще какой-то тескт мб что-то о курсе.*/}
+
 						</Typography>
 					</Grid>
 					<Grid item sm={5}>
@@ -61,14 +63,14 @@ const StartingCard = () => {
 				<Grid container item direction="column" justify="space-evenly" alignItems="center">
 					<Grid item>
 						<Typography className={classes.coolTitle} align="center">
-							Хочешь мыслить <u>нестандартно?</u>
+							Хочешь мыслить креативно?{/*<u>нестандартно?</u>*/}
 						</Typography>
 					</Grid>
-					<Grid item>
-						<Typography className={classes.title} align="center">
-							Думаешь, у тебя недостаточно таланта для новых идей?
-						</Typography>
-					</Grid>
+					{/*<Grid item>*/}
+					{/*	<Typography className={classes.title} align="center">*/}
+					{/*		Думаешь, у тебя недостаточно таланта для новых идей?*/}
+					{/*	</Typography>*/}
+					{/*</Grid>*/}
 				</Grid>
 			</Grid>
 			</Box>
